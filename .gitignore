@@ -1,0 +1,21 @@
+# Ignore YOLOv8 model files
+*.weights
+*.cfg
+*.data
+
+# Exclude large video files
+*.MOV
+*.mp4
+
+# Exclude image files
+*.png
+
+# Exclude compressed files
+*.zip
+
+# Exclude PyTorch model files
+*.pt
+
+# Exclude virtual environment directory
+jenga/env/
+stacks/env/

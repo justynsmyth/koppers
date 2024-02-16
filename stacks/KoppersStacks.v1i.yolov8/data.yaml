@@ -1,0 +1,13 @@
+train: .\train
+val: .\valid
+test: .\test
+
+nc: 1
+names: ['stack']
+
+roboflow:
+  workspace: koppersprimarystack
+  project: koppersstacks
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koppersprimarystack/koppersstacks/dataset/1
