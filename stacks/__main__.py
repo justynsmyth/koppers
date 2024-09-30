@@ -19,8 +19,10 @@ if __name__ == '__main__':
     print(torch.__version__)
 
     # Load a model
-    model = YOLO(r'.\best.pt').to(device)
+    model = YOLO(r'stacks\yolov8n.pt').to(device)
 
     # Use the model
-    model.train(data=".\KoppersStacks.v1i.yolov8\data.yaml", epochs=50)  # train the model
+    data_path = r'C:\Users\Justin\MDP\stacks\Stacks.v1i.yolov8\data.yaml'
+
+    model.train(data=data_path, epochs=50)  # train the model
     

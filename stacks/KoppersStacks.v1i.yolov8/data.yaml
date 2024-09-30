@@ -1,6 +1,6 @@
-train: .\train
-val: .\valid
-test: .\test
+train: \train
+val: \valid
+test: \test
 
 nc: 1
 names: ['stack']
